@@ -4,7 +4,7 @@
 \alias{greeting_n_times}
 \title{Return string \code{"Hello world!"} n times to R.}
 \usage{
-greeting_n_times()
+greeting_n_times(n)
 }
 \description{
 Return string \code{"Hello world!"} n times to R.

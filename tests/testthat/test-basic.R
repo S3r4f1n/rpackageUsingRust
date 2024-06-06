@@ -5,7 +5,7 @@ test_that("multiplication works", {
 test_that("greeting_n_times", {
   n <- 10
   expect_equal(
-    greeting_n_times(),
+    greeting_n_times(n),
     paste(rep("Hello world!\n", n), collapse = "")
   )
 })

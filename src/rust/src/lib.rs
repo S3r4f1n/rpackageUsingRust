@@ -3,8 +3,8 @@ use extendr_api::prelude::*;
 /// Return string `"Hello world!"` n times to R.
 /// @export
 #[extendr]
-fn greeting_n_times() -> String {
-    let n = 10;
+fn greeting_n_times(n: i32) -> String {
+    
     (0..n).map(|_| "Hello world!\n").collect::<String>()
 }
 

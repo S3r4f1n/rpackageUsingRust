@@ -13,7 +13,7 @@ NULL
 
 #' Return string `"Hello world!"` n times to R.
 #' @export
-greeting_n_times <- function() .Call(wrap__greeting_n_times)
+greeting_n_times <- function(n) .Call(wrap__greeting_n_times, n)
 
 
 # nolint end
