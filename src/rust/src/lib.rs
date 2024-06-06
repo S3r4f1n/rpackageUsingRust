@@ -3,8 +3,9 @@ use extendr_api::prelude::*;
 /// Return string `"Hello world!"` to R.
 /// @export
 #[extendr]
-fn hello_world() -> &'static str {
-    "Hello world!"
+fn greeting_n_times() -> String {
+    let n = 10;
+    (0..n).map(|_| "Hello world!\n").collect::<String>()
 }
 
 // Macro to generate exports.
@@ -12,5 +13,5 @@ fn hello_world() -> &'static str {
 // See corresponding C code in `entrypoint.c`.
 extendr_module! {
     mod rpackageUsingRust;
-    fn hello_world;
+    fn greeting_n_times;
 }
