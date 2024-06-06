@@ -25,7 +25,8 @@ devtools::install_github("S3r4f1n/rpackageUsingRust")
 
 This is a basic example which shows you how to solve a common problem:
 
-<!-- ```{r example}
+``` r
 library(rpackageUsingRust)
 greeting_n_times(10)
-``` -->
+#> [1] "Hello world!\nHello world!\nHello world!\nHello world!\nHello world!\nHello world!\nHello world!\nHello world!\nHello world!\nHello world!\n"
+```
