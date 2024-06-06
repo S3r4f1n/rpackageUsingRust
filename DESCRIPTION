@@ -14,3 +14,6 @@ Config/rextendr/version: 0.3.1.9000
 SystemRequirements: Cargo (Rust's package manager), rustc
 URL: https://github.com/S3r4f1n/rpackageUsingRust
 BugReports: https://github.com/S3r4f1n/rpackageUsingRust/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

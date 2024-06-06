@@ -1,6 +1,6 @@
 use extendr_api::prelude::*;
 
-/// Return string `"Hello world!"` to R.
+/// Return string `"Hello world!"` n times to R.
 /// @export
 #[extendr]
 fn greeting_n_times() -> String {

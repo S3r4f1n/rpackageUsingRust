@@ -11,7 +11,7 @@
 #' @useDynLib rpackageUsingRust, .registration = TRUE
 NULL
 
-#' Return string `"Hello world!"` to R.
+#' Return string `"Hello world!"` n times to R.
 #' @export
 greeting_n_times <- function() .Call(wrap__greeting_n_times)
 

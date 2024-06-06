@@ -2,10 +2,10 @@
 % Please edit documentation in R/extendr-wrappers.R
 \name{greeting_n_times}
 \alias{greeting_n_times}
-\title{Return string \code{"Hello world!"} to R.}
+\title{Return string \code{"Hello world!"} n times to R.}
 \usage{
 greeting_n_times()
 }
 \description{
-Return string \code{"Hello world!"} to R.
+Return string \code{"Hello world!"} n times to R.
 }
