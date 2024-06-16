@@ -4,12 +4,11 @@
 # rpackageUsingRust
 
 <!-- badges: start -->
-
-[![R-CMD-check](https://github.com/S3r4f1n/rpackageUsingRust/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/S3r4f1n/rpackageUsingRust/actions/workflows/R-CMD-check.yaml)
-
 <!-- badges: end -->
 
-This is a basic R package using Rust to execute functions.
+This package has been created as part of the [Programmer’s Guide to
+R](https://github.com/S3r4f1n/programmers_guide_to_R). (Uses Rust as
+BackEnd for an R package)
 
 ## Installation
 
